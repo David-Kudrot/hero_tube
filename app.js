@@ -132,7 +132,7 @@ fetch("https://openapi.programming-hero.com/api/videos/categories")
     categories.forEach((category) => {
       const button = document.createElement("button");
       button.textContent = category.category;
-      button.className = "btn btn-primary mr-2 mb-2";
+      button.className = "btn btn-primary mb-2";
   
       button.addEventListener("click", () => {
         // Remove active class from all buttons

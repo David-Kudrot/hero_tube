@@ -2,6 +2,7 @@
   background-color: rgb(206, 204, 204);
   font-weight: 600;
   border: none;
+  padding-inline: 0.7em!important;
 }
 
 .sortBtn {
@@ -97,17 +98,45 @@
 
 /* style for blog_page */
 
-.content {
+.content{
   background: url("back_for_blog.jpg");
-  background-size: cover;
-  height: 150vh;
+  height: 400vh;
   margin-top: 0;
+  background-repeat: repeat;
+
 }
 
 .accordion {
   max-width: 60%;
   margin-inline: auto;
   padding-top: 5em;
+}
+
+
+@media screen and (min-width: 320px) {
+  .accordion{
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .accordion{
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .accordion{
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 920px) {
+  .accordion{
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .accordion{
+    max-width: 60%;
+  }
 }
 
 .accordion .accordion-item,
