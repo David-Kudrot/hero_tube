@@ -118,17 +118,17 @@
 
 .accordion-button:not(.collapsed)::after {
     content: "-";
-    font-size: 1.5rem; /* Adjust size as needed */
-    color: rgb(255, 255, 255); /* Change color as needed */
-    font-weight: bold; /* Optional: Make it bold */
+    font-size: 1.5rem; 
+    color: rgb(255, 255, 255); 
+    font-weight: bold; 
   }
 
   /* Change the collapsed icon to "-" and set its color to white */
   .accordion-button.collapsed::after {
     content: "+";
-    font-size: 1.5rem; /* Adjust size as needed */
-    color: white; /* Change color to white */
-    font-weight: bold; /* Optional: Make it bold */
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
   }
 
 .accordion-header, .accordion-button{
